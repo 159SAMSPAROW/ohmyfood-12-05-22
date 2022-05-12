@@ -1,0 +1,28 @@
+.restaurant__card, .restaurant__menu__content{
+
+    .fa-solid{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient($clr_primary, $clr_secondary);
+    transform: rotateY(0deg);
+    transition: all 1s;
+    opacity: 0;
+
+   
+}  
+ &:hover .fa-solid{
+    transform: rotateY(360deg);
+    opacity: 1;
+    }
+
+.fa-light{
+    transform: rotateY(0deg);
+    transition: all 1s;
+    opacity: 1;
+}  
+&:hover .fa-light{
+    transform: rotateY(360deg);
+    opacity: 0;
+} 
+}
